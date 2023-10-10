@@ -1,0 +1,85 @@
+
+/* Main DIV */
+.footer-wrapper {
+    background: #ebeef1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    border-top: 1px solid #c6c7c9;
+}
+/* 1st DIV of footer */
+.news-letter .logo img {
+    width: auto;
+    height: 45px;
+}
+
+.news-letter p {
+    /* padding: 0 30px; */
+}
+
+/* Apply styles to the input and button elements inside .input-button */
+.input-button input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 200px; /* Adjust the width as needed */
+  }
+  
+  .input-button button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Optional: Add hover and focus styles */
+  .input-button input[type="email"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .input-button button:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+/* 1st DIV closed */
+
+/* 2nd DIV 'About Section' */
+.about {
+    /* background-color: green;
+    width: 100%; */
+}
+.about p {
+    font-weight: bold;
+}
+.about ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+
+/* 3rd DIV Social Media Section */
+.social-media p {
+    font-weight: bold;
+}
+
+.social-media ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+/* 4th DIV download */
+.download p {
+    font-weight: bold;
+}
+
+.download ul li {
+    list-style: none;
+    cursor: pointer;
+}

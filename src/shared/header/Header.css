@@ -1,0 +1,25 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ebeef1;
+    padding: 30px 100px;
+    border-bottom: 1px solid #d3d5d6;
+
+}
+
+.logo img {
+    width: auto;
+    height: 60px;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+}
+
+.menu ul a {
+    text-decoration: none;
+}
